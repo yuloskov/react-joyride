@@ -113,7 +113,6 @@ export default class JoyrideBeacon extends React.Component {
         >
           <span style={styles.beaconInner} />
           <span style={styles.beaconOuter} />
-          <div>ksneawea;enaw</div>
         </button>
       );
     }
