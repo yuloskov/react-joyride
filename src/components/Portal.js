@@ -47,7 +47,9 @@ export default class JoyridePortal extends React.Component {
       ReactDOM.unmountComponentAtNode(this.node);
     }
 
-    document.body.removeChild(this.node);
+    if (document.body.contains(this.node)) {
+      document.body.removeChild(this.node);
+    }
   }
 
   renderReact15() {

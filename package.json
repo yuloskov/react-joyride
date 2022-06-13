@@ -30,8 +30,8 @@
   "types": "./types/index.d.ts",
   "peerDependencies": {
     "prop-types": "^15.0.0",
-    "react": "^15.0.0 || ^16.0.0 || ^17.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0 || ^17.0.0"
+    "react": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "dependencies": {
     "deep-diff": "^1.0.2",
@@ -39,7 +39,7 @@
     "exenv": "^1.2.2",
     "is-lite": "^0.8.1",
     "nested-property": "^4.0.0",
-    "react-floater": "^0.7.3",
+    "react-floater": "^0.8.1",
     "react-is": "^16.13.1",
     "scroll": "^3.0.1",
     "scrollparent": "^2.0.1",
@@ -101,8 +101,6 @@
     "lint-staged": "^12.3.7",
     "prettier": "^2.6.0",
     "prop-types": "^15.8.1",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
     "repo-tools": "^0.2.2",
     "rimraf": "^3.0.2",
     "rollup": "^2.70.1",

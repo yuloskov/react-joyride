@@ -309,14 +309,18 @@ export default class JoyrideStep extends React.Component {
           target={step.target}
           {...step.floaterProps}
         >
-          <Beacon
-            beaconComponent={step.beaconComponent}
-            locale={step.locale}
-            nonce={nonce}
-            onClickOrHover={this.handleClickHoverBeacon}
-            shouldFocus={shouldScroll}
-            styles={step.styles}
-          />
+          {step.disableBeacon ? (
+            <div />
+          ) : (
+            <Beacon
+              beaconComponent={step.beaconComponent}
+              locale={step.locale}
+              nonce={nonce}
+              onClickOrHover={this.handleClickHoverBeacon}
+              shouldFocus={shouldScroll}
+              styles={step.styles}
+            />
+          )}
         </Floater>
       </div>
     );
