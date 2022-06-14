@@ -52,7 +52,7 @@ export default function getStyles(stepStyles = {}) {
     position: 'absolute',
     right: 0,
     top: 0,
-    zIndex: options.zIndex,
+    zIndex: options.zIndex - 1,
   };
 
   const defaultStyles = {

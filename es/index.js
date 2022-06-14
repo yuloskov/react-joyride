@@ -1171,7 +1171,7 @@ function getStyles() {
     position: 'absolute',
     right: 0,
     top: 0,
-    zIndex: options.zIndex
+    zIndex: options.zIndex - 1
   };
   var defaultStyles = {
     beacon: _objectSpread2(_objectSpread2({}, buttonBase), {}, {
@@ -1633,7 +1633,7 @@ var JoyrideBeacon = /*#__PURE__*/function (_React$Component) {
           style: styles.beaconInner
         }), /*#__PURE__*/React.createElement("span", {
           style: styles.beaconOuter
-        }), /*#__PURE__*/React.createElement("div", null, "ksneawea;enaw"));
+        }));
       }
 
       return component;
